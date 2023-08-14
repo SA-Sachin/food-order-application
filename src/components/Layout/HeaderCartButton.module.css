@@ -1,0 +1,43 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #d3870ec0;
+  color: rgb(117, 47, 47);
+  padding: 0.75rem 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #ffcc00;
+}
+
+.button:active {
+  background-color: #807b6f;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.button {
+  border-radius: 5px;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  padding: 0.1rem 0.8rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
