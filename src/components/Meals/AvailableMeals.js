@@ -1,4 +1,6 @@
 import React from "react";
+import classes from "./AvailableMeals.module.css";
+
 const DUMMY_MEALS = [
   {
     id: "m1",
@@ -23,10 +25,11 @@ const DUMMY_MEALS = [
 
 const AvailableMeals = () => {
   const mealslist = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
-  return;
-  <div>
-    <ul>{mealslist}</ul>
-  </div>;
+  return (
+    <div className={classes.meals}>
+      <ul>{mealslist}</ul>
+    </div>
+  );
 };
 
 export default AvailableMeals;
