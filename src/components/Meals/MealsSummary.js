@@ -12,12 +12,6 @@ const MealsSummary = () => {
         craft each dish with the finest ingredients, ensuring that every bite is
         a moment of pure delight.
       </p>
-      <p>
-        Immerse yourself in our warm and inviting ambiance as our friendly staff
-        cater to your every need. Whether you're looking for a romantic dinner
-        for two, a family gathering, or a special celebration, our restaurant
-        offers the perfect setting for any occasion.
-      </p>
     </div>
   );
 };
