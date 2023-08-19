@@ -18,18 +18,6 @@ const MealsSummary = () => {
         for two, a family gathering, or a special celebration, our restaurant
         offers the perfect setting for any occasion.
       </p>
-      <p>
-        Discover our diverse menu, featuring an array of delectable dishes
-        inspired by both local and international cuisines. From succulent steaks
-        to aromatic curries, from fresh seafood to indulgent desserts, our menu
-        has something to satisfy every palate.
-      </p>
-      <p>
-        Join us today and embark on a culinary adventure that will tantalize
-        your taste buds and leave you craving for more. We look forward to
-        serving you and providing a dining experience that exceeds your
-        expectations.
-      </p>
     </div>
   );
 };
