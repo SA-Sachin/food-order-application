@@ -7,7 +7,7 @@ const CartIcon = () => {
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-cart"
+      className="bi bi-cart"
       viewBox="0 0 16 16"
     >
       {" "}
