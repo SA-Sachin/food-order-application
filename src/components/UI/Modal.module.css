@@ -1,3 +1,4 @@
+/* Modal.module.css */
 .backdrop {
   position: fixed;
   top: 0;
@@ -8,7 +9,6 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-
 .modal {
   position: fixed;
   top: 50%;
@@ -16,8 +16,9 @@
   transform: translate(-50%, -50%);
   width: 90%;
   max-width: 500px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white; 
   padding: 1rem;
   border-radius: 14px;
   border: 2px solid black;
+  z-index: 30; 
 }

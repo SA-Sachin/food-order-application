@@ -1,10 +1,10 @@
-.cart-items{
+.cart-items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.total{
+.total {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +13,27 @@
   margin: 1rem 0;
 }
 
-.actions{
+.actions {
   text-align: right;
+}
+
+.closeButton {
+  background-color: #8a2b06;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.orderButton {
+  background-color: #8a2b06;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
