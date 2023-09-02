@@ -11,7 +11,7 @@ function App() {
   };
 
   const hideCartHandler = () => {
-    setCartIsShown(true);
+    setCartIsShown(false);
   };
 
   return (
